@@ -43,7 +43,6 @@ FULL ADDER:
 ![Screenshot 2025-04-15 111052](https://github.com/user-attachments/assets/aca43734-83c4-415b-9a5f-4dbd2a349368)
 
 FULL SUBRACTOR:
-
 ![Screenshot 2025-04-15 111106](https://github.com/user-attachments/assets/0cc19742-cc8f-4b38-9aca-b265a2fee230)
 
 **Procedure**
@@ -100,7 +99,6 @@ endmodule
 FULL ADDER:
 
 ![Screenshot 2025-04-15 102628](https://github.com/user-attachments/assets/66f51466-5108-4bca-afe5-a905f3cbdc70)
-
 FULL SUBRACTOR:
 
 ![Screenshot 2025-04-15 104359](https://github.com/user-attachments/assets/5a8aa822-e86a-42ea-91b0-222bdeffe2c0)
@@ -112,7 +110,6 @@ FULL ADDER:
 ![Screenshot 2025-04-15 104037](https://github.com/user-attachments/assets/5583c607-e9f7-4867-bbba-22f85cf00319)
 
 FULL SUBRACTOR:
-
 ![Screenshot 2025-04-15 105131](https://github.com/user-attachments/assets/c5ee455b-1f0d-474f-b798-acfdd8c56b9f)
 
 **Result:**
