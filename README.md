@@ -38,18 +38,82 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+FULL ADDER:
+
+![Screenshot 2025-04-15 111052](https://github.com/user-attachments/assets/aca43734-83c4-415b-9a5f-4dbd2a349368)
+
+FULL SUBRACTOR:
+
+![Screenshot 2025-04-15 111106](https://github.com/user-attachments/assets/0cc19742-cc8f-4b38-9aca-b265a2fee230)
+
 **Procedure**
 
-Write the detailed procedure here
+Full Adder:
+
+1.Open Quartus II and create a new project.
+
+2.Use schematic design entry to draw the full adder circuit.
+
+3.The circuit consists of XOR, AND, and OR gates.
+
+4.Compile the design, verify its functionality through simulation.
+
+5.Implement the design on the target device and program it.
+
+Full Subtractor:
+
+1.Follow the same steps as for the full adder.
+
+2.Draw the full subtractor circuit using schematic design.
+
+3.The circuit includes XOR, AND, OR gates to perform subtraction.
+
+4.Compile, simulate, implement, and program the design similarly to the full adder.
 
 **Program:**
-
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+```python
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+Developed by: NIKSHITHA.S
+RegisterNumber: 212224040220
 */
+
+//FULL ADDER//
+module DE(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c;
+endmodule
+
+//FULL SUBRACTOR//
+module DE(diff,carry,a,b,c);
+input a,b,c;
+output diff,carry;
+xor(diff,a,b,c);
+assign carry= (~a)&c | (~a)&b | (b&c);
+endmodule
+
+```
 
 **RTL Schematic**
 
+FULL ADDER:
+
+![Screenshot 2025-04-15 102628](https://github.com/user-attachments/assets/66f51466-5108-4bca-afe5-a905f3cbdc70)
+
+FULL SUBRACTOR:
+
+![Screenshot 2025-04-15 104359](https://github.com/user-attachments/assets/5a8aa822-e86a-42ea-91b0-222bdeffe2c0)
+
 **Output Timing Waveform**
+
+FULL ADDER:
+
+![Screenshot 2025-04-15 104037](https://github.com/user-attachments/assets/5583c607-e9f7-4867-bbba-22f85cf00319)
+
+FULL SUBRACTOR:
+
+![Screenshot 2025-04-15 105131](https://github.com/user-attachments/assets/c5ee455b-1f0d-474f-b798-acfdd8c56b9f)
 
 **Result:**
 
